@@ -1,4 +1,4 @@
-# rạp chiếu film Website
+# Rạp chiếu film Website
 
 Use HTML, CSS, JavaScript.
 
