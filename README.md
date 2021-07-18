@@ -1,10 +1,15 @@
 # Rạp chiếu film Website
 
-Use HTML, CSS, JavaScript.
+Đồ án cuối kì môn Lập Trình Web 2 về website đặt vé xem film.
+#Thành viên:
+1. Nguyễn Thị Thanh Thảo
+2. Lên Bích Trâm
+3. Đinh Vũ Phương Thanh
+4. Phùng Minh Thi
 
 
 
-## Structure:(complete)
+## Components:(complete)
   + Người dùng:
     + đăng ký (xác nhận gmail)
     + đăng nhập (email,mật khẩu)
@@ -22,5 +27,7 @@ Use HTML, CSS, JavaScript.
 ## Browser Support
 Chrome, CocCoc, FireFox, Microsoft Edge.
 
-## Link Website
+##Link Website
 https://hcmus-movie.herokuapp.com/cinema#a_map_cont
+##Link Youtube
+https://www.youtube.com/watch?v=zc0zRKOMioI
