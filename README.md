@@ -12,7 +12,7 @@ Use HTML, CSS, JavaScript.
 + Sign In page
 
 
-##structure:(complete)
+## Structure:(complete)
   Người dùng:
     đăng ký (xác nhận gmail)
     đăng nhập (email,mật khẩu)
