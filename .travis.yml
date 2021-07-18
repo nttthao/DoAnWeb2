@@ -16,11 +16,11 @@ before_install:
   - echo 'PATH="/usr/local/heroku/bin:$PATH"' >> ~/.profile
 
 script:
-  - docker build -f Dockerfile -t hcmus-movie-api .
+  - docker build -f Dockerfile -t hcmus-movie .
   - docker images
 
 after_success:
   - heroku container:login
-  - docker tag hcmus-movie-api registry.heroku.com/hcmus-movie-api/web
-  - docker push registry.heroku.com/hcmus-movie-api/web
-  - heroku container:release web --app hcmus-movie-api
+  - docker tag hcmus-movie registry.heroku.com/hcmus-movie/web
+  - docker push registry.heroku.com/hcmus-movie/web
+  - heroku container:release web --app hcmus-movie
