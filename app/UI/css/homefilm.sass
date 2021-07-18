@@ -1,0 +1,315 @@
+#content
+  position: relative
+  min-height: 400px
+
+.screen_cwrap
+  width: 980px
+  margin: 0 auto
+  padding-top: 40px
+
+  .tab_st02
+    margin-bottom: 17px
+
+.tab_st02
+  margin-bottom: 29px
+  text-align: center
+
+.screen_cwrap .tab_content
+  &.on
+    display: block
+
+  display: none
+  padding-bottom: 10px
+
+.curr_list
+  margin-left: -20px
+  min-height: 441px
+
+.movie_clist.curr_list > li
+  width: 230px
+  height: 411px
+  margin: 0 0 40px 20px
+
+.curr_list
+  > li
+    position: relative
+    float: left
+    width: 180px
+    height: 340px
+    margin: 0 0 30px 20px
+    border: 1px solid #dedede
+    box-sizing: border-box
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+
+  .curr_box
+    position: relative
+
+curr_list .num
+  position: absolute
+  left: 0
+  bottom: 0
+  z-index: 11
+  display: block
+  width: 100%
+  height: 49px
+  background: url("https://www.lottecinemavn.com/LCHS/Image/Bg/bg_w_mk.png") repeat-y left bottom
+  font-size: 28px
+  color: #fff
+  font-family: 'linlivertine'
+  font-weight: bold
+  padding: 5px 0 0 20px
+  font-style: italic
+  line-height: 45px
+  box-sizing: border-box
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  text-align: left
+
+.movie_clist.curr_list .img
+  width: 228px
+  height: 334px
+
+.curr_list
+  .img
+    width: 178px
+    height: 262px
+
+  a
+    display: block
+
+.movie_clist.curr_list .img img
+  width: 228px
+  height: 334px
+
+.curr_list .img img
+  width: 178px
+  height: 262px
+
+img
+  border: 0
+  vertical-align: middle
+
+.movie_clist.curr_list .curr_box:hover .layer_hover
+  width: 228px
+  height: 335px
+  padding: 114px 20px 0
+  background-image: url("https://www.lottecinemavn.com/LCHS/Image/Bg/bg_mask06_2.png")
+
+// Sự kiện khi hover
+.curr_list .layer_hover
+  display: none
+
+.curr_list .curr_box:hover .layer_hover
+  display: block 
+  position: absolute
+  left: 0
+  top: 0
+  width: 178px
+  height: 262px
+  padding: 73px 10px 0
+  background: url("https://www.lottecinemavn.com/LCHS/Image/Bg/bg_mask06.png") repeat
+  color: #fff
+  text-align: center
+  font-size: 14px
+  line-height: 27px
+  box-sizing: border-box
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  z-index: 11
+
+.movie_clist.curr_list .layer_hover [class^="btn_"]
+  font-size: 15px
+
+.curr_list
+  padding-left: 0
+  .layer_hover [class^="btn_"]
+    width: 100%
+    height: 50px
+    border: 1px solid #c0b687
+    color: #c0b687
+    text-align: center
+    font-size: 16px
+    line-height: 50px
+    font-weight: bold
+    box-sizing: border-box
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    font-weight: bold
+
+  a
+    display: block
+
+a
+  text-decoration: none
+  color: #555
+
+.movie_clist.curr_list .layer_hover [class^="btn_"]
+  font-size: 15px
+
+.curr_list
+  .layer_hover
+    .btn_View
+      margin-top: 10px
+
+    [class^="btn_"]
+      width: 100%
+      height: 50px
+      border: 1px solid #c0b687
+      color: #c0b687
+      text-align: center
+      font-size: 16px
+      line-height: 50px
+      font-weight: bold
+      box-sizing: border-box
+      -webkit-box-sizing: border-box
+      -moz-box-sizing: border-box
+      font-weight: bold
+
+  a
+    display: block
+
+  .list_text
+    border-top: 1px solid #e5e5e5
+    box-sizing: border-box
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+
+.movie_clist.curr_list .list_text dt
+  padding: 12px 15px 11px 15px
+
+.curr_list .list_text dt
+  padding: 12px 9px 11px 9px
+  border-bottom: 1px solid #dedede
+
+.movie_clist.curr_list .list_text dt a
+  font-size: 14px
+  line-height: 20px
+
+.curr_list
+  .list_text dt a
+    overflow: hidden
+    width: 100%
+    white-space: nowrap
+    text-overflow: ellipsis
+    font-size: 16px
+    color: #231f20
+    font-weight: bold
+
+  a
+    display: block
+
+.movie_clist.curr_list .list_text dd
+  padding: 0 46px
+  font-size: 13px
+  color: #777
+
+.curr_list .list_text dd
+  padding: 0 10px
+  color: #666
+  font-size: 12px
+  line-height: 30px
+
+  .rate
+    display: inline-block
+
+  .grade
+    position: relative
+    display: inline-block
+    margin-left: 6px
+    padding-left: 8px
+
+  &:after
+    content: ''
+    display: block
+    clear: both
+
+  .grade
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: 10px
+      width: 1px
+      height: 11px
+      background: #dfdfdf
+      content: ''
+      position: absolute
+      left: 0
+      top: 10px
+      width: 1px
+      height: 11px
+      background: #dfdfdf
+
+    em
+      display: inline-block
+
+address, caption, em
+  font-weight: normal
+  font-style: normal
+
+.curr_list .num
+  position: absolute
+  left: 0
+  bottom: 0
+  z-index: 11
+  display: block
+  width: 100%
+  height: 49px
+  background: url("https://www.lottecinemavn.com/LCHS/Image/Bg/bg_w_mk.png") repeat-y left bottom
+  font-size: 28px
+  color: #fff
+  font-family: 'linlivertine'
+  font-weight: bold
+  padding: 5px 0 0 20px
+  font-style: italic
+  line-height: 45px
+  box-sizing: border-box
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  text-align: left
+
+.movie_clist.curr_list .list_text dt a [class^=grade_] 
+    vertical-align: top
+
+[class^=grade_]
+    display: inline-block
+    overflow: hidden
+    vertical-align: middle
+    width: 20px
+    height: 20px
+    margin-right: 5px
+    text-indent: -99999em
+
+.grade_18
+    background: url("https://www.lottecinemavn.com/LCHS/Image/Bg/bg_grade_18.png") no-repeat 0 0
+
+.grade_16
+    background: url("https://www.lottecinemavn.com/LCHS/Image/Bg/bg_grade_16.png") no-repeat 0 0
+
+.grade_13
+    background: url("https://www.lottecinemavn.com/LCHS/Image/Bg/bg_grade_13.png") no-repeat 0 0
+
+.curr_list:after
+    content: ''
+    display: block
+    clear: both
+
+.btn_view 
+    display: block
+    width: 100%
+    height: 40px
+    padding: 8px 0
+    background: #efefef
+    border: 1px solid #dedede
+    text-align: center
+    font-size: 14px
+    color: #231f20
+    font-weight: bold
+    box-sizing: border-box
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    .btn_view span
+        padding-bottom: 6px
+        background: url("https://www.lottecinemavn.com/LCHS/Image/btn/btn_plus02.png") no-repeat 50% 100%
+

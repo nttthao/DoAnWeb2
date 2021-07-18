@@ -1,0 +1,143 @@
+#content
+  position: relative
+  min-height: 400px
+
+#container:after
+  content: ''
+  display: block
+  clear: both
+
+.profile_wrap
+  width: 100%
+  background: #f9f6ec
+
+  .profile_inner
+    width: 800px
+    margin: 0 auto
+    padding: 55px 0 50px
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  list-style: none
+  font-family: 'Josefin Sans', sans-serif
+
+body
+  background-color: #f3f3f3
+
+.wrapper_profile
+  //position: absolute
+  top: 50%
+  left: 50%
+  //transform: translate(-50%, -50%)
+  width: 100%
+  display: flex
+  box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08)
+
+  .left
+    width: 35%
+    background: #fff
+    //background: linear-gradient(to right, #01a9ac, #01dbdf)
+    //background: url(https://www.lottecinemavn.com/LCHS/Image/Main/bg_pattern.png) repeat left top;
+    padding: 30px 25px
+    border-top-left-radius: 5px
+    border-bottom-left-radius: 5px
+    text-align: center
+    color: #fff
+
+    img
+      border-radius: 5px
+      margin-bottom: 10px
+
+    h4
+      margin-bottom: 10px
+
+    p
+      font-size: 12px
+
+  .right
+    width: 65%
+    background: #fff
+    padding: 30px 25px
+    border-top-right-radius: 5px
+    border-bottom-right-radius: 5px
+
+    .info, .projects
+      margin-bottom: 25px
+
+    .info h3, .projects h3
+      margin-bottom: 15px
+      padding-bottom: 5px
+      border-bottom: 1px solid #e0e0e0
+      color: #353c4e
+      text-transform: uppercase
+      letter-spacing: 5px
+
+    .info_data, .projects_data
+      display: flex
+      justify-content: space-between
+
+    .info_data .data, .projects_data .data
+      width: 45%
+
+    .info_data .data h4, .projects_data .data h4
+      color: #353c4e
+      margin-bottom: 5px
+
+    .info_data .data p, .projects_data .data p
+      font-size: 13px
+      margin-bottom: 10px
+      color: #919aa3
+
+  .social_media ul
+    display: flex
+
+    li
+      width: 45px
+      height: 45px
+      background: linear-gradient(to right, #01a9ac, #01dbdf)
+      margin-right: 10px
+      border-radius: 5px
+      text-align: center
+      line-height: 45px
+
+      a
+        color: #fff
+        display: block
+        font-size: 18px
+
+.info_data > span
+    margin-bottom: 10px
+    position: relative
+    display: block
+    text-align: left
+    label
+        display: inline-block
+        width: 89px
+        text-align: left
+        font-weight: bold
+        font-size: 14px
+        vertical-align: middle
+        color: #353535
+    input
+        margin-left: 10px
+        width: 253px
+        height: 40px
+        padding: 0
+        font-size: 12px
+        font-family: 'NanumGothic'
+        color: #555
+        vertical-align: middle
+        padding: 10px
+        border: 1px solid #dedede
+        background: #f5f5f5
+        box-sizing: border-box
+        -webkit-box-sizing: border-box
+
+.change_password
+    background: #fff
+    width: 100%
+    padding: 30px 30px
+    display: flex
+    justify-content: center

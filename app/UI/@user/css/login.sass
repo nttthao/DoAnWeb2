@@ -1,0 +1,548 @@
+#content
+  position: relative
+  min-height: 400px
+
+#container:after
+  content: ''
+  display: block
+  clear: both
+
+#bd_year, #bd_month, #bd_day
+    margin-right: 10px
+    width: 100px
+    height: 35px
+    border: 1px solid #DDD
+    color: #666
+    vertical-align: middle
+    text-align: left
+    font-size: 13px
+    line-height: 29px
+
+#content
+  .login_wrap
+    width: 100%
+    background: #f9f6ec
+
+    .login_inner
+      width: 550px
+      margin: 0 auto
+      padding: 55px 0 50px
+
+  .login_tit
+    margin-bottom: 22px
+    font-size: 28px
+    color: #231f20
+    font-weight: normal
+
+  .login_top
+    min-height: 325px
+    background: #fff
+    padding: 30px 30px 40px
+    box-sizing: border-box
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+
+  .register_top
+    min-height: 500px
+    background: #fff
+    padding: 30px 30px 40px
+    box-sizing: border-box
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+
+  [class|="tabdl_login"]
+    display: table
+    table-layout: fixed
+    width: 100%
+    position: relative
+
+    .tab_login_con
+      &.active
+        display: block
+
+      display: none
+      position: absolute
+      left: 0
+      top: 0px
+      width: 100%
+      padding-top: 20px
+      z-index: 1
+
+  user agent stylesheet dd
+    display: block
+    margin-inline-start: 40px
+
+  [class|="tabdl_login"]:after
+    content: ''
+    display: block
+    clear: both
+
+  .login_left
+    float: left
+    width: 100%
+
+  .etc_list
+    margin-bottom: 38px
+
+    li
+      padding-left: 10px
+      background: url("https://www.lottecinemavn.com/LCHS/Image/Bullet/bullet.gif") no-repeat 0 7px
+      color: #666
+      line-height: 18px
+
+  .login_left .login_box
+    width: 448px
+
+  .login_box
+    position: relative
+    margin-bottom: 30px
+
+    > span
+      //&:first-child
+      margin-bottom: 10px
+
+      position: relative
+      display: block
+      text-align: left
+
+    label
+      display: inline-block
+      width: 89px
+      text-align: left
+      font-weight: bold
+      font-size: 14px
+      vertical-align: middle
+      color: #353535
+
+  button, label
+    cursor: pointer
+
+  input
+    &[type=image], &[type="button"]
+      cursor: pointer
+
+  .login_left .login_box input
+    &[type=text], &[type=password]
+      width: 253px
+      height: 40px
+
+  input
+    &[type=text], &[type=password]
+      height: 40px
+      padding: 10px
+      border: 1px solid #dedede
+      background: #f5f5f5
+      box-sizing: border-box
+      -webkit-box-sizing: border-box
+      -moz-box-sizing: border-box
+
+    margin: 0
+    padding: 0
+    font-size: 12px
+    font-family: 'NanumGothic'
+    color: #555
+    vertical-align: middle
+
+  select, textarea
+    font-size: 12px
+    font-family: 'NanumGothic'
+    color: #555
+    vertical-align: middle
+
+  user agent stylesheet input
+    &[type="text" i]
+      padding: 1px 2px
+
+    -webkit-writing-mode: horizontal-tb !important
+    text-rendering: auto
+    color: -internal-light-dark(black, white)
+    letter-spacing: normal
+    word-spacing: normal
+    text-transform: none
+    text-indent: 0px
+    text-shadow: none
+    display: inline-block
+    text-align: start
+    appearance: auto
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59))
+    -webkit-rtl-ordering: logical
+    cursor: text
+    margin: 0em
+    font: 400 13.3333px Arial
+    padding: 1px 2px
+    border-width: 2px
+    border-style: inset
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133))
+    border-image: initial
+
+  .login_box
+    > span
+      position: relative
+      display: block
+      text-align: left
+      position: relative
+      display: block
+      text-align: left
+
+    label
+      display: inline-block
+      width: 89px
+      margin-right: 10px
+      text-align: left
+      font-weight: bold
+      font-size: 14px
+      vertical-align: middle
+      color: #353535
+
+  button, label
+    cursor: pointer
+
+  input
+    &[type=image], &[type="button"]
+      cursor: pointer
+
+  .login_left .login_box input
+    &[type=text], &[type=password]
+      width: 253px
+      height: 40px
+
+  input
+    &[type=text], &[type=password]
+      height: 40px
+      padding: 10px
+      border: 1px solid #dedede
+      background: #f5f5f5
+      box-sizing: border-box
+      -webkit-box-sizing: border-box
+      -moz-box-sizing: border-box
+
+    margin: 0
+    padding: 0
+    font-size: 12px
+    font-family: 'NanumGothic'
+    color: #555
+    vertical-align: middle
+
+  select, textarea
+    font-size: 12px
+    font-family: 'NanumGothic'
+    color: #555
+    vertical-align: middle
+
+  user agent stylesheet input
+    &[type="password" i]
+      -webkit-text-security: disc !important
+      padding: 1px 2px
+
+    -webkit-writing-mode: horizontal-tb !important
+    text-rendering: auto
+    color: -internal-light-dark(black, white)
+    letter-spacing: normal
+    word-spacing: normal
+    text-transform: none
+    text-indent: 0px
+    text-shadow: none
+    display: inline-block
+    text-align: start
+    appearance: auto
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59))
+    -webkit-rtl-ordering: logical
+    cursor: text
+    margin: 0em
+    font: 400 13.3333px Arial
+    padding: 1px 2px
+    border-width: 2px
+    border-style: inset
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133))
+    border-image: initial
+
+  .login_box > span
+    position: relative
+    display: block
+    text-align: left
+
+  .login_left .login_find
+    position: relative
+    margin-left: 75px
+
+    span, a
+      font-size: 14px
+      color: #231f20
+
+  .login_find
+    > span
+      &:first-child
+        background: none
+        box-sizing: border-box
+
+      display: inline-block
+      margin-right: 12px
+      padding-left: 17px
+      background: url("https://www.lottecinemavn.com/LCHS/Image/Bg/bg_line16.gif") no-repeat 0 50%
+      color: #888
+
+    *
+      vertical-align: middle
+      vertical-align: middle
+
+    > span input[type=checkbox]
+      margin-right: 7px
+
+  input
+    margin: 0
+    padding: 0
+    font-size: 12px
+    font-family: 'NanumGothic'
+    color: #555
+    vertical-align: middle
+
+  select, textarea
+    font-size: 12px
+    font-family: 'NanumGothic'
+    color: #555
+    vertical-align: middle
+
+  user agent stylesheet input
+    &[type="checkbox" i]
+      background-color: initial
+      cursor: default
+      appearance: auto
+      box-sizing: border-box
+      margin: 3px 3px 3px 4px
+      padding: initial
+      border: initial
+
+    -webkit-writing-mode: horizontal-tb !important
+    text-rendering: auto
+    color: -internal-light-dark(black, white)
+    letter-spacing: normal
+    word-spacing: normal
+    text-transform: none
+    text-indent: 0px
+    text-shadow: none
+    display: inline-block
+    text-align: start
+    appearance: auto
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59))
+    -webkit-rtl-ordering: logical
+    cursor: text
+    margin: 0em
+    font: 400 13.3333px Arial
+    padding: 1px 2px
+    border-width: 2px
+    border-style: inset
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133))
+    border-image: initial
+
+  .login_left .login_find
+    span, a
+      font-size: 14px
+      color: #231f20
+
+  .login_find
+    > span
+      display: inline-block
+      margin-right: 12px
+      padding-left: 17px
+      background: url("https://www.lottecinemavn.com/LCHS/Image/Bg/bg_line16.gif") no-repeat 0 50%
+      color: #888
+
+    *
+      vertical-align: middle
+
+  button, label
+    cursor: pointer
+
+  input
+    &[type=image], &[type="button"]
+      cursor: pointer
+
+  .login_find .btn_login
+    border: none
+    bottom: 53px
+
+  button, label
+    cursor: pointer
+
+  input
+    &[type=image], &[type="button"]
+      cursor: pointer
+
+  .login_find *
+    vertical-align: middle
+
+  .btn_login
+    position: absolute
+    right: 0
+    width: 98px
+    height: 90px
+    padding-top: 38px
+    text-align: center
+    font-size: 14px
+    color: #e5e1b0 !important
+    background: #231f20 url("https://www.lottecinemavn.com/LCHS/Image/Icon/icon_login.png") no-repeat 50% 19px
+
+  input
+    margin: 0
+    padding: 0
+    font-size: 12px
+    font-family: 'NanumGothic'
+    color: #555
+    vertical-align: middle
+
+  select, textarea
+    font-size: 12px
+    font-family: 'NanumGothic'
+    color: #555
+    vertical-align: middle
+
+  user agent stylesheet input
+    &[type="button" i]
+      appearance: auto
+      user-select: none
+      white-space: pre
+      align-items: flex-start
+      text-align: center
+      cursor: default
+      color: -internal-light-dark(black, white)
+      background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59))
+      box-sizing: border-box
+      padding: 1px 6px
+      border-width: 2px
+      border-style: outset
+      border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133))
+      border-image: initial
+
+    -webkit-writing-mode: horizontal-tb !important
+    text-rendering: auto
+    color: -internal-light-dark(black, white)
+    letter-spacing: normal
+    word-spacing: normal
+    text-transform: none
+    text-indent: 0px
+    text-shadow: none
+    display: inline-block
+    text-align: start
+    appearance: auto
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59))
+    -webkit-rtl-ordering: logical
+    cursor: text
+    margin: 0em
+    font: 400 13.3333px Arial
+    padding: 1px 2px
+    border-width: 2px
+    border-style: inset
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133))
+    border-image: initial
+
+  .login_left .login_find
+    span, a
+      font-size: 14px
+      color: #231f20
+
+  .login_find
+    .no_bg
+      background: none
+
+    > span
+      display: inline-block
+      margin-right: 12px
+      padding-left: 17px
+      background: url("https://www.lottecinemavn.com/LCHS/Image/Bg/bg_line16.gif") no-repeat 0 50%
+      color: #888
+
+    *
+      vertical-align: middle
+
+  .login_left .login_find
+    span, a
+      font-size: 14px
+      color: #231f20
+
+  .login_find
+    > span > a
+      display: inline-block
+      background: url("https://www.lottecinemavn.com/LCHS/Image/Icon/ico_page_blank.gif") no-repeat right center
+      padding-right: 20px
+
+    a
+      color: #888
+
+    *
+      vertical-align: middle
+
+  .login_left .login_find
+    span, a
+      font-size: 14px
+      color: #231f20
+
+  .login_find
+    > span
+      display: inline-block
+      margin-right: 12px
+      padding-left: 17px
+      background: url("https://www.lottecinemavn.com/LCHS/Image/Bg/bg_line16.gif") no-repeat 0 50%
+      color: #888
+
+    *
+      vertical-align: middle
+
+  .login_left .login_find
+    span, a
+      font-size: 14px
+      color: #231f20
+
+  .login_find
+    > span > a
+      display: inline-block
+      background: url("https://www.lottecinemavn.com/LCHS/Image/Icon/ico_page_blank.gif") no-repeat right center
+      padding-right: 20px
+
+    a
+      color: #888
+
+    *
+      vertical-align: middle
+
+  .login_right
+    float: right
+    width: 451px
+
+  .clear_fix:after
+    content: ''
+    display: block
+    clear: both
+
+  .login_bottom
+    min-height: 79px
+    padding: 25px 0
+    background: #efebdb
+    text-align: center
+    box-sizing: border-box
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+
+    .login_etxt
+      font-size: 13px
+      color: #666
+      font-weight: bold
+
+    *
+      display: inline-block
+
+    .btn_join
+      line-height: 30px
+      background: #fff
+      border: 1px solid #d1d1d1
+      margin-left: 6px
+      font-size: 13px
+      color: #231f20
+      box-sizing: border-box
+      -webkit-box-sizing: border-box
+      -moz-box-sizing: border-box
+      text-align: center
+      font-weight: bold
+      padding: 0 10px
+
+    *
+      display: inline-block
