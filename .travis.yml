@@ -1,0 +1,26 @@
+# Document: https://docs.travis-ci.com/user/deployment
+# Document Heroku: https://devcenter.heroku.com/articles/build-docker-images-heroku-yml
+
+notifications:
+  email:
+    on_failure: change
+
+services:
+  - docker
+
+env:
+  - DOCKER_COMPOSE_VERSION=1.16.1
+
+before_install:
+  # import heroku CLI
+  - echo 'PATH="/usr/local/heroku/bin:$PATH"' >> ~/.profile
+
+script:
+  - docker build -f Dockerfile -t hcmus-movie-api .
+  - docker images
+
+after_success:
+  - heroku container:login
+  - docker tag hcmus-movie-api registry.heroku.com/hcmus-movie-api/web
+  - docker push registry.heroku.com/hcmus-movie-api/web
+  - heroku container:release web --app hcmus-movie-api
