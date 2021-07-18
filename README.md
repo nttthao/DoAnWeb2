@@ -1,7 +1,7 @@
 # Rạp chiếu film Website
 
 Đồ án cuối kì môn Lập Trình Web 2 về website đặt vé xem film.
-#Thành viên:
+##Thành viên:
 1. Nguyễn Thị Thanh Thảo
 2. Lên Bích Trâm
 3. Đinh Vũ Phương Thanh
