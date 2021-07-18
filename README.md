@@ -2,14 +2,6 @@
 
 Use HTML, CSS, JavaScript.
 
-## Components:
-
-+ Homepage
-+ Rewards page
-+ GiftCard page
-+ Location Store page
-+ Menu page
-+ Sign In page
 
 
 ## Structure:(complete)
@@ -21,7 +13,7 @@ Use HTML, CSS, JavaScript.
     + Trang chủ hiện các phim mới được công chiếu và phim được xem nhiều nhất
     + đặt vé xem phim(chọn suất chiếu chọn ghế và xác nhận)
     + xem lịch sử danh sách đặt vé
-  Quản lý:
+  + Quản lý:
     + Có phần đăng nhập riêng
     + quản lý thêm xóa cụm rạp ,phim
     + Thống kê doanh thu theo rạp trong khoảng thoiwdf gian do người dùng nhập
