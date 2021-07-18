@@ -16,7 +16,7 @@ Use HTML, CSS, JavaScript.
   + Quản lý:
     + Có phần đăng nhập riêng
     + quản lý thêm xóa cụm rạp ,phim
-    + Thống kê doanh thu theo rạp trong khoảng thoiwdf gian do người dùng nhập
+    + Thống kê doanh thu theo rạp trong khoảng thời gian do người dùng nhập
     + Thống kê doanh thu theo phim
 ```
 ## Browser Support
